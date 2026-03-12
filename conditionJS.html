@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional Statement in JS</title>
+</head>
+<body>
+    <script>
+        //Conditional Statement: decision in code, running diff blocks of code
+         let age=20;
+        // if(age>=18){
+        //     console.log("Valid age for vote casting");
+        // }
+
+        //if else
+        // if(age>=18){
+        //     console.log("Valid age");
+        // }
+        // else{
+        //     console.log("Not Valid age");
+        // }
+        
+        //switch case
+        // let grade="C";   //change the grade
+        // switch(grade){
+        //     case'A' : result="First Division";
+        //     break;
+        //     case'B' : result="Second Division";
+        //     break;
+        //     case'C' : result="Third Division";
+        //     break;
+        //     default : result="fail";
+        // }
+        // console.log(result);
+
+        //if elseif else....
+        // let marks=50;          //change the marks
+        // if(marks>=60){         //60+
+        //     console.log("First Division marks");
+        // }
+        // else if(marks<60 && marks>=40){      //59-40
+        //     console.log("Second Division marks");
+        // }
+        // else if(marks<40 && marks>=33){      //39-33
+        //     console.log("Third Division marks");
+        // }
+        // else{                               //0-32
+        //     console.log("Fail");
+        // }
+
+        //Ques
+        let marks=[89, 60, 72, 91, 90];
+        let sum=0;
+        for(let i=0; i<marks.length; i++){
+            sum=sum+marks[i];
+        }
+        let avg = sum/marks.length;
+        console.log("avg marks=" + avg);
+
+    </script>
+</body>
+</html>
